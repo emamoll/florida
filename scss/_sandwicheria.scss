@@ -1,59 +1,3 @@
-.gridSand {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-areas: "s1 s2 s3"
-                         "p1 p2 p3"
-                         "t1 t2 t3";
-}
-
-.gSanH1 {
-    grid-area: s1;
-    justify-self: center;
-    align-self: center;
-}
-
-.gSanH2 {
-    grid-area: s2;
-    align-self: center;
-}
-
-.gSanH3 {
-    grid-area: s3;
-    align-self: center;
-}
-
-.gSanH4 {
-    grid-area: p1;
-    justify-self: center;
-    align-self: center;
-}
-
-.gSanH5 {
-    grid-area: p2;
-    align-self: center;
-}
-
-.gSanH6 {
-    grid-area: p3;
-    align-self: center;
-}
-
-.gSanH7 {
-    grid-area: t1;
-    justify-self: center;
-    align-self: center;
-}
-
-.gSanH8 {
-    grid-area: t2;
-    align-self: center;
-}
-
-.gSanH9 {
-    grid-area: t3;
-    align-self: center;
-}
-
 .fondoSand {
     border: silver 90px solid;
     border-image: url("../Img/bordesand.png");
@@ -64,4 +8,9 @@
 
 #sandFondo {
     height: 530px;
+    margin-left: 92px;
+}
+
+#seccionSandwich {
+    margin-left: 25px;
 }
