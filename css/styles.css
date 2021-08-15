@@ -452,7 +452,7 @@ nav a:hover {
   .tituloNos {
     margin-top: -30px; } }
 
-@media screen and (min-width: 481px) and (max-width: 760px) {
+@media screen and (min-width: 481px) and (max-width: 761px) {
   a .logo {
     height: 128px;
     padding-left: 7px;
