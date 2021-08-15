@@ -1,0 +1,44 @@
+.logo {
+    height: 170px;
+    padding-top: 20px;
+    padding-left: 50px;
+    filter: drop-shadow(0 2px 5px rgba(0,0,0,0.7))
+}
+
+.logo:hover {
+    filter: drop-shadow(1px 5px 10px rgba(0,0,0,0.7));
+}
+
+nav {
+    margin-top: -145px;
+    margin-right: 10px;
+}
+
+nav li {
+    font-size: 20px;
+    padding: 10px;
+    font-family: $texto;
+
+}
+
+nav li:hover {
+    background-color: $col-pri;
+    border-radius: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+

@@ -1,0 +1,32 @@
+.fondoCafe {
+    border: silver 90px solid;
+    border-image: url("../Img/bordecafe.png");
+    border-image-slice: 70;
+    border-image-repeat: stretch;
+    background-image: linear-gradient($col-pri, white, $col-pri);
+}
+
+.nav-link {
+    color: red;
+}
+
+.nav-link:hover {
+    background: $col-pri;
+    color: white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link  {
+    background-color: $col-pri;
+}
+
+button {
+    font-family: $texto;
+}
+
+body {
+    font-family: $texto;
+}
+
+#cafeFondo {
+    height: 290px;
+}

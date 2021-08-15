@@ -1,0 +1,87 @@
+.gridForm {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25% 25%;
+    grid-gap: 5px;
+    padding-top: 13px;
+}
+
+.gridFormH1 {
+    grid-row-start: 1;
+    justify-self: end;
+    align-self: center;
+}
+
+.gridFormH2 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+
+.gridFormH3 {
+    grid-row-start: 2;
+    justify-self: end;
+    align-self: center;
+}
+
+.gridFormH4 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.gridFormH5 {
+    grid-row-start: 3;
+    justify-self: end;
+    align-self: center;
+}
+
+.gridFormH6 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+
+.gridFormH7 {
+    grid-row-start: 4;
+    justify-self: end;
+    align-self: center;
+}
+
+.gridFormH8 {
+    grid-row-start: 4;
+    grid-column-start: 2;
+}
+
+.gridFormH9 {
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.gridFormH10 {
+    grid-row-start: 6;
+    justify-self: end;
+    align-self: center;
+}
+
+.gridFormH11 {
+    grid-row-start: 6;
+    grid-column-start: 2;
+    align-self: center;
+}
+
+.gridFormH12 {
+    grid-row-start: 7;
+    justify-self: end;
+    align-self: center;
+}
+
+.gridFormH13 {
+    grid-row-start: 7;
+    grid-column-start: 2;
+    justify-self: start;
+    align-self: center;
+}
+
+.marginCon {
+    margin-bottom: 5px;
+    padding-top: 30px;
+}

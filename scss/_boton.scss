@@ -1,0 +1,24 @@
+.boton {
+    background-color: $col-pri; 
+    border: none;
+    color: black;
+    padding: 6px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: $texto;
+    border-radius: 20px;
+  }
+
+.boton:hover {
+  color: white;
+}
+
+.nav-link {
+  background-color: $col-pri;
+}
+
+.nav-pills .nav-link {
+  border-radius: 20px;
+}

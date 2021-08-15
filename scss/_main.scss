@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: $tit-tamaño;
+    text-align: center;
+    font-family: $tit-letra
+}
+
+.intro {
+    text-align: center;
+    font-family: $texto;
+    margin-bottom: 40px;
+}
+
+.imgSecciones {
+    max-width: 400px;
+    margin-left: 80px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.tab-content>.tab-pane {
+    margin-left: -20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+main {
+    background-image: linear-gradient(white,$col-pri, white,);
+}
+
+.align-items-start{
+    margin-left: 130px;
+}
+
+.d-flex {
+    height: 370px;
+}
+
+.tab-content .active {
+    display: -webkit-inline-box;
+}
+
+
+
