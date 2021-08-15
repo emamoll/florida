@@ -439,7 +439,7 @@ nav a:hover {
 #sandFondo {
   height: 530px; }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   a .logo {
     height: 75px;
     padding-left: 2px;
@@ -564,7 +564,7 @@ nav a:hover {
   .tituloNos {
     margin-top: -30px; } }
 
-@media screen and (min-width: 401px) and (max-width: 960px) {
+@media screen and (min-width: 481px) and (max-width: 960px) {
   a .logo {
     height: 128px;
     padding-left: 7px;
