@@ -212,22 +212,30 @@
 {
     a .logo {
         height: 128px;
-        padding-left: 7px;
+        padding-left: 180px;
         padding-top: 15px;
     }
 
+    nav {
+        margin-right: 46px;
+    }
+
     nav ul li {
-        padding: 0px;
-        margin-top: 43px;
+        padding: 1px;
+        margin-top: 160px;
         font-size: 15px;
     }
 
     header  {
-        height: 75px;
+        height: 190px;
     }
 
     h1 {
         font-size: 56px;
+    }
+
+    .tituloInicio {
+        margin-top: -15px;
     }
 
     .tituloNos {
@@ -235,35 +243,72 @@
     }
 
     footer {
-        height: 75px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        font-size: 15px;
+        height: 175px;
+    }
+
+    footer .footH3 {
+        font-size: 8px;
+        margin-top: 15px;
+        padding-top: 0px;
+    }
+
+    .telefono {
+        margin-left: 47px;
     }
 
     .fondoNos {
-        border: silver 50px solid;
+        border: silver 39px solid;
         border-image: url("../Img/v3.jpg");
-        border-image-slice: 90;
+        border-image-slice: 91;
         border-image-repeat: repeat;
     }
 
     .fondoPan {
-        border: silver 50px solid;
+        border: silver 39px solid;
         border-image: url(../Img/bordepan.png);
-        border-image-slice: 70;
+        border-image-slice: 35;
         border-image-repeat: stretch;
     }
 
     .fondoCafe {
-        border: silver 50px solid;
+        border: silver 39px solid;
         border-image: url(../Img/bordecafe.png);
-        border-image-slice: 70;
+        border-image-slice: 35;
         border-image-repeat: stretch;
     }
 
     .fondoSand {
-        border: silver 50px solid;
+        border: silver 39px solid;
         border-image: url(../Img/bordesand.png);
-        border-image-slice: 70;
+        border-image-slice: 35;
         border-image-repeat: stretch;
+    }
+
+    .hijoG1 {
+        align-self: self-start;
+        font-size: 13px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .hijoG4 {
+        align-self: self-start;
+        font-size: 13px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .hijoG5 {
+        align-self: self-start;
+        font-size: 13px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .historia {
+        max-width: 255px;
     }
 
     #sandFondo {
@@ -271,11 +316,15 @@
     }
 
     .align-items-start {
-        margin-left: 1px;
+        margin-left: -20px;
     }
 
     .d-flex {
-        height: 398px;
+        height: 550px;
+    }
+
+    .flex-column {
+        margin-left: 65px;
     }
     
     .me-3 {
@@ -284,8 +333,8 @@
 
     .imgSecciones {
         max-width: 300px;
-        margin-left: 40px;
-        margin-top: 15px;
+        margin-left: -380px;
+        margin-top: 330px;
         margin-right: 5px;
     }
 }

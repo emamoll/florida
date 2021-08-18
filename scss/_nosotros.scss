@@ -3,8 +3,7 @@
 }
 
 .historia {
-    max-width: 275px;
-    max-height: 275px;
+    max-width: 300px;
 }
 
 .grid {
@@ -22,13 +21,13 @@
 
 .hijoG2 {
     grid-area: i1;
-    justify-self: start;
+    justify-self: center;
     align-self: center;
 }
 
 .hijoG3 {
     grid-area: i2;
-    justify-self: end;
+    justify-self: center;
     align-self: center;
 }
 
@@ -47,6 +46,8 @@
 .hijoG6 {
     grid-area: i3;
     align-self: center;
+    justify-self: center;
+    margin-bottom: 7px;
 }
 
 .marginNos {
