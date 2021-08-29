@@ -1,9 +1,9 @@
-// Media queries para smartphone
+// Media queries para smartphone chicos
 @media screen and(max-width: $celular) 
 {   
     a .logo {
         height: 75px;
-        padding-left: 2px;
+        padding-left: 7px;
         padding-top: 10px;
         margin-left: 105px;
     }
@@ -20,7 +20,7 @@
     }
 
     header  {
-        height: 110px;
+        height: 113px;
     }
 
     .tituloInicio {
@@ -91,30 +91,29 @@
 
     .fondoNos {
         border: silver 30px solid;
-        border-image: url("../Img/v3.jpg");
-        border-image-slice: 87;
-        border-image-repeat: repeat;
+        border-image: url("../Img/fondonosotros.png");
+        border-image-slice: 60;
+        border-image-repeat: stretch
     }
 
     .fondoPan {
         border: silver 30px solid;
-        border-image: url(../Img/bordepan.png);
-        border-image-slice: 70;
-        border-image-repeat: stretch;
+        border-image: url("../Img/fondopan.png");
+        border-image-slice: 60;
+        border-image-repeat: stretch
     }
 
     .fondoCafe {
         border: silver 30px solid;
         border-image: url(../Img/bordecafe.png);
-        border-image-slice: 70;
-        border-image-repeat: stretch;
+        border-image-slice: 60;
     }
 
     .fondoSand {
         border: silver 30px solid;
-        border-image: url(../Img/bordesand.png);
-        border-image-slice: 70;
-        border-image-repeat: stretch;
+        border-image: url("../Img/fondosand.png");
+        border-image-slice: 60;
+        border-image-repeat: stretch
     }
 
     #cafeFondo {
@@ -122,7 +121,8 @@
     }
 
     #sandFondo {
-        height: 405px;
+        height: 550px;
+        margin-left: 1px;
     }
 
     .gridForm {
@@ -207,135 +207,1087 @@
         margin-top: -30px;
     }
 }
-// Media queries para tablets
-@media screen and(min-width:$celular+1) and (max-width: $tablet)
+
+// Media queries para smartphone medianos
+@media screen and(min-width:$celular+1) and (max-width:$celularMediano)
 {
     a .logo {
-        height: 128px;
-        padding-left: 180px;
-        padding-top: 15px;
+        height: 85px;
+        padding-top: 10px;
+        margin-left: 60px;
+    }
+
+    .flex {
+        justify-content: flex-start;
     }
 
     nav {
-        margin-right: 46px;
+        margin-top: -142px;
+        margin-left: 2px;
     }
 
     nav ul li {
-        padding: 1px;
-        margin-top: 160px;
-        font-size: 15px;
+        padding: 5px;
+        margin-top: 148px;
+        font-size: 10px;
+        margin-left: -20px;
     }
 
     header  {
-        height: 190px;
-    }
-
-    h1 {
-        font-size: 56px;
+        height: 125px;
     }
 
     .tituloInicio {
-        margin-top: -15px;
+        margin-top: -25px;
     }
 
-    .tituloNos {
-        margin-top: -30px;
+    .carCentr {
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+        margin-right: 8px;
+        margin-left: 8px;
+        width: 360px;
     }
 
     footer {
         flex-direction: column;
         flex-wrap: nowrap;
-        font-size: 15px;
-        height: 175px;
+        font-size: 10px;
+        height: 110px;
+    }
+
+    .telefono {
+        margin-left: 28px;
+    }
+
+    p {
+        margin-top: 4px;
+        margin-bottom: 0rem;
     }
 
     footer .footH3 {
         font-size: 8px;
-        margin-top: 15px;
         padding-top: 0px;
     }
 
-    .telefono {
-        margin-left: 47px;
+    h1 {
+        font-size: 35px;
+    }
+
+    .intro {
+        font-size: 10px;
+    }
+
+    .align-items-start {
+        margin-left: 0px;
+    }
+
+    .nav-link {
+        font-size: 8px;
+        color: black;
+    }
+
+    .d-flex {
+        height: 265px;
+    }
+
+    .nav-pills .nav-link {
+        margin-left: 5px;
+    }
+
+    .imgSecciones {
+        max-width: 115px;
+        margin-left: 15px;
+        margin-top: 45px;
+        margin-right: 5px;
     }
 
     .fondoNos {
-        border: silver 39px solid;
-        border-image: url("../Img/v3.jpg");
-        border-image-slice: 91;
-        border-image-repeat: repeat;
+        border: silver 30px solid;
+        border-image: url("../Img/fondonosotros.png");
+        border-image-slice: 87;
     }
 
     .fondoPan {
-        border: silver 39px solid;
-        border-image: url(../Img/bordepan.png);
-        border-image-slice: 35;
-        border-image-repeat: stretch;
+        border: silver 30px solid;
+        border-image: url("../Img/fondopan.png");
+        border-image-slice: 70;
     }
 
     .fondoCafe {
-        border: silver 39px solid;
+        border: silver 30px solid;
         border-image: url(../Img/bordecafe.png);
-        border-image-slice: 35;
+        border-image-slice: 70;
         border-image-repeat: stretch;
     }
 
     .fondoSand {
-        border: silver 39px solid;
-        border-image: url(../Img/bordesand.png);
-        border-image-slice: 35;
-        border-image-repeat: stretch;
+        border: silver 30px solid;
+        border-image: url("../Img/fondosand.png");
+        border-image-slice: 70;
+    }
+
+    #cafeFondo {
+        height: 210px;
+    }
+
+    #sandFondo {
+        height: 550px;
+        margin-left: 1px;
+    }
+
+    .gridForm {
+        font-size: 9px;
+    }
+
+    .gridFormH12 {
+        font-size: 9px;
+    }
+
+    .gridFormH13 {
+        font-size: 9px;
+    }
+
+    #tituloContacto {
+        margin-top: -22;
+    }
+
+    h3 {
+        margin-top: -110px;
+        font-size: 17px;
+    }
+
+    .bicicleta {
+        height: 110px;
+    }
+
+    .boton {
+        font-size: 9px;
+        margin-bottom: 5px;
     }
 
     .hijoG1 {
         align-self: self-start;
-        font-size: 13px;
+        font-size: 8px;
         margin-left: 8px;
         margin-right: 8px;
     }
 
+    .hijoG2 {
+        justify-self: center;
+    }
+
+    .hijoG3 {
+        justify-self: center;
+    }
+
     .hijoG4 {
         align-self: self-start;
-        font-size: 13px;
+        font-size: 8px;
         margin-left: 8px;
         margin-right: 8px;
     }
 
     .hijoG5 {
         align-self: self-start;
-        font-size: 13px;
+        font-size: 8px;
         margin-left: 8px;
         margin-right: 8px;
     }
+
+    .hijoG6 {
+        justify-self: center;
+    }
+
+    .grid {
+        grid-template-areas: "p1"
+                             "i1"
+                             "p2"
+                             "i2"
+                             "p3"
+                             "i3";
+    }
+
     .historia {
-        max-width: 255px;
+        max-width: 220px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
-    #sandFondo {
-        height: 600px;
-    }
-
-    .align-items-start {
-        margin-left: -20px;
-    }
-
-    .d-flex {
-        height: 550px;
-    }
-
-    .flex-column {
-        margin-left: 65px;
-    }
-    
-    .me-3 {
-        margin-right: 2rem!important;
-    }
-
-    .imgSecciones {
-        max-width: 300px;
-        margin-left: -380px;
-        margin-top: 330px;
-        margin-right: 5px;
+    .tituloNos {
+        margin-top: -30px;
     }
 }
 
+// Media queries para smartphone grandes
+@media screen and(min-width:$celularMediano+1) and (max-width:$celularGrande)
+{
+    a .logo {
+        height: 85px;
+        padding-top: 10px;
+        margin-left: 75px;
+    }
+
+    .flex {
+        justify-content: flex-start;
+    }
+
+    nav {
+        margin-top: -142px;
+        margin-left: 28px;
+    }
+
+    nav ul li {
+        padding: 5px;
+        margin-top: 148px;
+        font-size: 10px;
+        margin-left: -20px;
+    }
+
+    header  {
+        height: 125px;
+    }
+
+    .tituloInicio {
+        margin-top: -25px;
+    }
+
+    .carCentr {
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+        margin-right: 8px;
+        margin-left: 8px;
+        width: 360px;
+    }
+
+    footer {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        font-size: 10px;
+        height: 110px;
+    }
+
+    .telefono {
+        margin-left: 28px;
+    }
+
+    p {
+        margin-top: 4px;
+        margin-bottom: 0rem;
+    }
+
+    footer .footH3 {
+        font-size: 8px;
+        padding-top: 0px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .intro {
+        font-size: 10px;
+    }
+
+    .align-items-start {
+        margin-left: 0px;
+    }
+
+    .nav-link {
+        font-size: 8px;
+        color: black;
+    }
+
+    .d-flex {
+        height: 265px;
+    }
+
+    .nav-pills .nav-link {
+        margin-left: 5px;
+    }
+
+    .imgSecciones {
+        max-width: 115px;
+        margin-left: 15px;
+        margin-top: 45px;
+        margin-right: 5px;
+    }
+
+    .fondoNos {
+        border: silver 30px solid;
+        border-image: url("../Img/fondonosotros.png");
+        border-image-slice: 87;
+    }
+
+    .fondoPan {
+        border: silver 30px solid;
+        border-image: url("../Img/fondopan.png");
+        border-image-slice: 70;
+    }
+
+    .fondoCafe {
+        border: silver 30px solid;
+        border-image: url(../Img/bordecafe.png);
+        border-image-slice: 70;
+        border-image-repeat: stretch;
+    }
+
+    .fondoSand {
+        border: silver 30px solid;
+        border-image: url("../Img/fondosand.png");
+        border-image-slice: 70;
+    }
+
+    #cafeFondo {
+        height: 210px;
+    }
+
+    #sandFondo {
+        height: 460px;
+        margin-left: 1px;
+    }
+
+    .gridForm {
+        font-size: 9px;
+    }
+
+    .gridFormH12 {
+        font-size: 9px;
+    }
+
+    .gridFormH13 {
+        font-size: 9px;
+    }
+
+    #tituloContacto {
+        margin-top: -22;
+    }
+
+    h3 {
+        margin-top: -110px;
+        font-size: 17px;
+    }
+
+    .bicicleta {
+        height: 110px;
+    }
+
+    .boton {
+        font-size: 9px;
+        margin-bottom: 5px;
+    }
+
+    .hijoG1 {
+        align-self: self-start;
+        font-size: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .hijoG2 {
+        justify-self: center;
+    }
+
+    .hijoG3 {
+        justify-self: center;
+    }
+
+    .hijoG4 {
+        align-self: self-start;
+        font-size: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .hijoG5 {
+        align-self: self-start;
+        font-size: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .hijoG6 {
+        justify-self: center;
+    }
+
+    .grid {
+        grid-template-areas: "p1"
+                             "i1"
+                             "p2"
+                             "i2"
+                             "p3"
+                             "i3";
+    }
+
+    .historia {
+        max-width: 220px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .tituloNos {
+        margin-top: -30px;
+    }
+}
+
+// Media queries para tablet chicas
+@media screen and(min-width:$celularGrande+1) and (max-width:$tabletChica)
+{
+    a .logo {
+        height: 90px;
+        padding-top: 10px;
+        margin-left: 110px;
+    }
+
+    .flex {
+        justify-content: flex-start;
+    }
+
+    nav {
+        margin-top: -140px;
+        margin-left: 70px;
+    }
+
+    nav ul li {
+        padding: 5px;
+        margin-top: 148px;
+        font-size: 10px;
+        margin-left: -20px;
+    }
+
+    header  {
+        height: 135px;
+    }
+
+    .tituloInicio {
+        margin-top: -25px;
+    }
+
+    .carCentr {
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+        margin-right: 8px;
+        margin-left: 8px;
+        width: 360px;
+    }
+
+    footer {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        font-size: 10px;
+        height: 110px;
+    }
+
+    .telefono {
+        margin-left: 28px;
+    }
+
+    p {
+        margin-top: 4px;
+        margin-bottom: 0rem;
+    }
+
+    footer .footH3 {
+        font-size: 8px;
+        padding-top: 0px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .intro {
+        font-size: 10px;
+    }
+
+    .align-items-start {
+        margin-left: 0px;
+    }
+
+    .nav-link {
+        font-size: 8px;
+        color: black;
+    }
+
+    .d-flex {
+        height: 265px;
+    }
+
+    .nav-pills .nav-link {
+        margin-left: 5px;
+    }
+
+    .imgSecciones {
+        max-width: 115px;
+        margin-left: 15px;
+        margin-top: 45px;
+        margin-right: 5px;
+    }
+
+    .fondoNos {
+        border: silver 30px solid;
+        border-image: url("../Img/fondonosotros.png");
+        border-image-slice: 87;
+    }
+
+    .fondoPan {
+        border: silver 30px solid;
+        border-image: url("../Img/fondopan.png");
+        border-image-slice: 70;
+    }
+
+    .fondoCafe {
+        border: silver 30px solid;
+        border-image: url(../Img/bordecafe.png);
+        border-image-slice: 70;
+        border-image-repeat: stretch;
+    }
+
+    .fondoSand {
+        border: silver 30px solid;
+        border-image: url("../Img/fondosand.png");
+        border-image-slice: 70;
+    }
+
+    #cafeFondo {
+        height: 210px;
+    }
+
+    #sandFondo {
+        height: 380px;
+        margin-left: 1px;
+    }
+
+    .gridForm {
+        font-size: 9px;
+    }
+
+    .gridFormH12 {
+        font-size: 9px;
+    }
+
+    .gridFormH13 {
+        font-size: 9px;
+    }
+
+    #tituloContacto {
+        margin-top: -22;
+    }
+
+    h3 {
+        margin-top: -110px;
+        font-size: 17px;
+    }
+
+    .bicicleta {
+        height: 110px;
+    }
+
+    .boton {
+        font-size: 9px;
+        margin-bottom: 5px;
+    }
+
+    .hijoG1 {
+        align-self: self-start;
+        font-size: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .hijoG2 {
+        justify-self: center;
+    }
+
+    .hijoG3 {
+        justify-self: center;
+    }
+
+    .hijoG4 {
+        align-self: self-start;
+        font-size: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .hijoG5 {
+        align-self: self-start;
+        font-size: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .hijoG6 {
+        justify-self: center;
+    }
+
+    .grid {
+        grid-template-areas: "p1"
+                             "i1"
+                             "p2"
+                             "i2"
+                             "p3"
+                             "i3";
+    }
+
+    .historia {
+        max-width: 220px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .tituloNos {
+        margin-top: -30px;
+    }
+}
+
+// Media queries para tablet medianas
+@media screen and(min-width:$tabletChica+1) and (max-width:$tabletMediana)
+{
+    a .logo {
+        height: 110px;
+        padding-left: 20px;
+        margin-top: 0px;
+    }
+
+    nav {
+        margin-top: -70px;
+        margin-right: 0px;
+    }
+
+    nav li {
+        font-size: 11px;
+        padding: 0px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .fondoNos {
+        border: silver 60px solid;
+        border-image: url("../Img/fondonosotros.png");
+        border-image-slice: 40;
+    }
+
+    .fondoPan {
+        border: silver 60px solid;
+        border-image: url("../Img/fondopan.png");
+        border-image-slice: 50;
+    }
+
+    .fondoCafe {
+        border: silver 60px solid;
+        border-image: url("../Img/bordecafe.png");
+        border-image-slice: 40;
+        border-image-repeat: stretch;
+    }
+
+    .fondoSand {
+        border: silver 60px solid;
+        border-image: url("../Img/fondosand.png");
+        border-image-slice: 40;
+    }
+
+    .grid {
+        font-size: 12px;
+    }
+
+    .gridForm {
+        font-size: 12px;
+    }
+
+    .historia {
+        max-width: 270px;
+    }
+
+    .me-3 {
+        margin-right: -2rem !important;
+        margin-left: -3rem!important;
+    }
+
+    .align-items-start {
+        font-size: 10px;
+        margin-left: 49px;
+    }
+
+    .imgSecciones {
+        width: 305px;
+        margin-left: 17px;
+        margin-right: 5px;
+    }
+
+    .d-flex {
+        height: 300px;
+    }
+
+    #cafeFondo {
+        height: 300px;
+    }
+
+    #sandFondo {
+        margin-right: 0rem !important;
+        margin-left: 3rem !important;
+        height: 645px;
+    }
+
+    .tab-content {
+        padding-left: 56px;
+    }
+
+    .intro {
+        font-size: 12px;
+    }
+
+    .footH1 {
+        font-size: 11px;
+    }   
+
+    #seccionSandwich {
+        margin-left: 45px;
+        margin-right: 12px;
+    }
+}
+// Media queries para tablet grandes
+@media screen and(min-width:$tabletMediana+1) and (max-width:$tabletGrande)
+{
+    a .logo {
+        height: 120px;
+        padding-left: 20px;
+        margin-top: 0px;
+    }
+
+    nav {
+        margin-top: -90px;
+        margin-right: 0px;
+    }
+
+    nav li {
+        font-size: 11px;
+        padding: 5px;
+    }
+
+    .fondoNos {
+        border: silver 60px solid;
+        border-image: url("../Img/fondonosotros.png");
+        border-image-slice: 40;
+    }
+
+    .fondoPan {
+        border: silver 60px solid;
+        border-image: url("../Img/fondopan.png");
+        border-image-slice: 50;
+    }
+
+    .fondoCafe {
+        border: silver 60px solid;
+        border-image: url("../Img/bordecafe.png");
+        border-image-slice: 40;
+        border-image-repeat: stretch;
+    }
+
+    .fondoSand {
+        border: silver 60px solid;
+        border-image: url("../Img/fondosand.png");
+        border-image-slice: 40;
+    }
+
+    .grid {
+        font-size: 15px;
+    }
+
+    .gridForm {
+        font-size: 14px;
+    }
+
+    .me-3 {
+        margin-right: -1rem !important;
+        margin-left: -3rem!important;
+    }
+
+    .align-items-start {
+        font-size: 12px;
+        margin-left: 50px;
+    }
+
+    .imgSecciones {
+        width: 330px;
+        margin-left: 30px;
+        margin-right: 5px;
+    }
+
+    .d-flex {
+        height: 345px;
+    }
+
+    #cafeFondo {
+        height: 330px;
+    }
+
+    #sandFondo {
+        margin-right: 0rem !important;
+        margin-left: 3rem !important;
+        height: 645px;
+    }
+
+    .tab-content {
+        padding-left: 56px;
+    }
+
+    .intro {
+        font-size: 15px;
+    }
+
+    .footH1 {
+        font-size: 11px;
+    }   
+
+    #seccionSandwich {
+        margin-left: 29px;
+        margin-right: 13px;
+    }
+}
+
+// Media queries para escritorios chicos
+@media screen and(min-width:$tabletGrande+1) and (max-width:$desktopChico)
+{
+    a .logo {
+        height: 130px;
+        padding-left: 30px;
+        margin-top: 7px;
+    }
+
+    nav {
+        margin-top: -110px;
+        margin-right: 0px;
+    }
+
+    nav li {
+        font-size: 12px;
+    }
+
+    .fondoNos {
+        border: silver 60px solid;
+        border-image: url("../Img/fondonosotros.png");
+        border-image-slice: 60;
+    }
+
+    .fondoPan {
+        border: silver 60px solid;
+        border-image: url("../Img/fondopan.png");
+        border-image-slice: 60;
+    }
+
+    .fondoCafe {
+        border: silver 60px solid;
+        border-image: url("../Img/bordecafe.png");
+        border-image-slice: 60;
+        border-image-repeat: stretch;
+    }
+
+    .fondoSand {
+        border: silver 60px solid;
+        border-image: url("../Img/fondosand.png");
+        border-image-slice: 48;
+    }
+
+    .gridForm {
+        font-size: 14px;
+    }
+
+    .me-3 {
+        margin-right: 0rem!important;
+        margin-left: -3rem!important;
+    }
+
+    .align-items-start {
+        font-size: 12px;
+        margin-left: 50px;
+    }
+
+    .imgSecciones {
+        width: 450px;
+        margin-left: 30px;
+        margin-right: 5px;
+    }
+
+    .d-flex {
+        height: 345px;
+    }
+
+    #cafeFondo {
+        height: 330px;
+    }
+
+    #sandFondo {
+        margin-left: 50px;
+        margin-right: -10px;
+        height: 610px;
+    }
+
+    .tab-content {
+        padding-left: 42px;
+    }
+
+    .footH1 {
+        font-size: 11px;
+    }   
+
+    #seccionSandwich {
+        margin-left: 29px;
+        margin-right: 13px;
+    }
+}
+
+// Media queries para escritorios medianos
+@media screen and(min-width:$desktopChico+1) and (max-width:$desktopMediano)
+{
+    a .logo {
+        height: 140px;
+        padding-left: 30px;
+        margin-top: 7px;
+    }
+
+    nav {
+        margin-top: -113px;
+        margin-right: 0px;
+    }
+
+    nav li {
+        font-size: 17px;
+        padding: 7px;
+    }
+
+    .fondoNos {
+        border: silver 70px solid;
+        border-image: url("../Img/fondonosotros.png");
+        border-image-slice: 60;
+    }
+
+    .fondoPan {
+        border: silver 70px solid;
+        border-image: url("../Img/fondopan.png");
+        border-image-slice: 60;
+    }
+
+    .fondoCafe {
+        border: silver 70px solid;
+        border-image: url("../Img/bordecafe.png");
+        border-image-slice: 60;
+        border-image-repeat: stretch;
+    }
+
+    .fondoSand {
+        border: silver 70px solid;
+        border-image: url("../Img/fondosand.png");
+        border-image-slice: 60;
+    }
+
+    .me-3 {
+        margin-right: 1rem!important;
+        margin-left: -2rem!important;
+    }
+
+    .align-items-start {
+        font-size: 14px;
+        margin-left: 50px;
+    }
+
+    .imgSecciones {
+        width: 450px;
+        margin-left: 30px;
+    }
+
+    #sandFondo {
+        margin-left: 70px;
+        margin-right: 5px;
+        height: 532px;
+    }
+
+    .tab-content {
+        padding-left: 20px;
+    }
+
+    .footH1 {
+        font-size: 12px;
+    }   
+
+    #seccionSandwich {
+        margin-left: 30px;
+    }
+
+    .gridForm {
+        font-size: 14px;
+    }
+}
+
+// Media queries para escritorios grandes
+@media screen and(min-width:$desktopMediano+1) and (max-width:$desktop)
+{
+    a .logo {
+        height: 155px;
+        padding-left: 40px;
+        margin-top: 10px;
+    }
+
+    nav {
+        margin-top: -138px;
+        margin-right: 7px;
+    }
+
+    nav li {
+        font-size: 19px;
+        padding: 9px
+    }
+
+    .fondoNos {
+        border: silver 80px solid;
+        border-image: url("../Img/fondonosotros.png");
+        border-image-slice: 60;
+    }
+
+    .fondoPan {
+        border: silver 80px solid;
+        border-image: url("../Img/fondopan.png");
+        border-image-slice: 60;
+    }
+
+    .fondoCafe {
+        border: silver 80px solid;
+        border-image: url("../Img/bordecafe.png");
+        border-image-slice: 60;
+        border-image-repeat: stretch;
+    }
+
+    .fondoSand {
+        border: silver 80px solid;
+        border-image: url("../Img/fondosand.png");
+        border-image-slice: 60;
+    }
+
+    .imgSecciones{
+        margin-right: 5px;
+        margin-left: 20px;
+    }
+
+    .me-3 {
+        margin-right: -2rem!important;
+        margin-left: -1rem!important;
+    }
+
+    #sandFondo {
+        margin-left: 21px;
+        height: 575px;
+    }
+
+    .tab-content {
+        padding-left: 50px;
+    }
+
+    .footH1 {
+        font-size: 12px;
+    }
+}

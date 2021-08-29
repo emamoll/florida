@@ -56,9 +56,8 @@
 
 .fondoNos {
     border: silver 90px solid;
-    border-image: url("../Img/v3.jpg");
-    border-image-slice: 90;
-    border-image-repeat: repeat;
+    border-image: url("../Img/fondonosotros.png");
+    border-image-slice: 70;
     background-image: linear-gradient($col-pri, white, $col-pri);
     width: 100%;
     height: 100%;

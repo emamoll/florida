@@ -1,6 +1,6 @@
 .fondoSand {
     border: silver 90px solid;
-    border-image: url("../Img/bordesand.png");
+    border-image: url("../Img/fondosand.png");
     border-image-slice: 70;
     border-image-repeat: stretch;
     background-image: linear-gradient($col-pri, white, $col-pri);
@@ -17,4 +17,8 @@
 
 #pebeteImagen {
     margin-right: 10px;
+}
+
+.imgPebetes {
+    margin-right: 5px;
 }
