@@ -1,6 +1,8 @@
 body {
   margin: 0px; }
 
+/* Estilos del main */
+
 h1 {
   font-style: italic;
   font-weight: lighter;
@@ -37,6 +39,8 @@ main {
 .tab-content .active {
   display: -webkit-inline-box; }
 
+/* Estilos de los botones */
+
 .boton {
   background-color: #E57723;
   border: none;
@@ -58,11 +62,12 @@ main {
 .nav-pills .nav-link {
   border-radius: 20px; }
 
+/* Estilos de la sección Cafetería */
+
 .fondoCafe {
   border: silver 90px solid;
-  border-image: url("../Img/bordecafe.png");
-  border-image-slice: 70;
-  border-image-repeat: stretch;
+  border-image: url("../Img/fondocafe.png");
+  border-image-slice: 87;
   background-image: linear-gradient(#E57723, white, #E57723); }
 
 .nav-link {
@@ -83,6 +88,8 @@ body {
 
 #cafeFondo {
   height: 360px; }
+
+/* Estilos de la sección Contacto */
 
 .gridForm {
   display: grid;
@@ -157,6 +164,8 @@ body {
   margin-bottom: 22px;
   padding-top: 30px; }
 
+/* Estilos del footer */
+
 footer {
   display: flex;
   flex-direction: row;
@@ -188,6 +197,8 @@ a:hover {
 .telefono {
   margin-top: 21px; }
 
+/* Estilos del header */
+
 header {
   height: 100px;
   background-image: linear-gradient(#E57723, white); }
@@ -199,9 +210,13 @@ header {
   padding-bottom: 10px;
   margin-bottom: 0px; }
 
+/* Estilos del index */
+
 .carousel {
   margin: 5px;
   margin-top: 30px; }
+
+/* Estilos del navegador */
 
 .logo {
   height: 170px;
@@ -238,6 +253,8 @@ nav a:hover {
   flex-wrap: wrap;
   justify-content: flex-end; }
 
+/* Estilos de la sección Nosotros */
+
 .noso {
   font-family: "Source Code Pro", monospace; }
 
@@ -246,7 +263,9 @@ nav a:hover {
 
 .grid {
   display: grid;
-  grid-template-areas: "p1 i1" "i2 p2" "p3 i3"; }
+  grid-template-areas: "p1 i1"
+ "i2 p2"
+ "p3 i3"; }
 
 .hijoG1 {
   grid-area: p1;
@@ -285,7 +304,7 @@ nav a:hover {
 .fondoNos {
   border: silver 90px solid;
   border-image: url("../Img/fondonosotros.png");
-  border-image-slice: 70;
+  border-image-slice: 87;
   background-image: linear-gradient(#E57723, white, #E57723);
   width: 100%;
   height: 100%; }
@@ -293,25 +312,29 @@ nav a:hover {
 .tituloNos {
   margin-top: -27px; }
 
+/* Estilos de la sección Panadería */
+
 .fondoPan {
   border: silver 90px solid;
   border-image: url("../Img/fondopan.png");
-  border-image-slice: 70;
-  border-image-repeat: stretch;
+  border-image-slice: 87;
   background-image: linear-gradient(#E57723, white, #E57723); }
 
 .nav-link {
   color: black; }
 
+/* Estilos de la respuesta */
+
 .respuesta {
   text-align: center;
   margin-top: 139px; }
 
+/* Estilos de la sección Sandwichería */
+
 .fondoSand {
   border: silver 90px solid;
   border-image: url("../Img/fondosand.png");
-  border-image-slice: 70;
-  border-image-repeat: stretch;
+  border-image-slice: 87;
   background-image: linear-gradient(#E57723, white, #E57723); }
 
 #sandFondo {
@@ -326,6 +349,10 @@ nav a:hover {
 
 .imgPebetes {
   margin-right: 5px; }
+
+/* Estilos para el responsive */
+
+/* Media queries para smartphone chicos */
 
 @media screen and (max-width: 380px) {
   a .logo {
@@ -394,7 +421,7 @@ nav a:hover {
     border-image-repeat: stretch; }
   .fondoCafe {
     border: silver 30px solid;
-    border-image: url(../Img/bordecafe.png);
+    border-image: url("../Img/fondocafe.png");
     border-image-slice: 60; }
   .fondoSand {
     border: silver 30px solid;
@@ -444,13 +471,20 @@ nav a:hover {
   .hijoG6 {
     justify-self: center; }
   .grid {
-    grid-template-areas: "p1" "i1" "p2" "i2" "p3" "i3"; }
+    grid-template-areas: "p1"
+ "i1"
+ "p2"
+ "i2"
+ "p3"
+ "i3"; }
   .historia {
     max-width: 220px;
     margin-top: 5px;
     margin-bottom: 5px; }
   .tituloNos {
     margin-top: -30px; } }
+
+/* Media queries para smartphone medianos */
 
 @media screen and (min-width: 381px) and (max-width: 420px) {
   a .logo {
@@ -519,7 +553,7 @@ nav a:hover {
     border-image-slice: 70; }
   .fondoCafe {
     border: silver 30px solid;
-    border-image: url(../Img/bordecafe.png);
+    border-image: url("../Img/fondocafe.png");
     border-image-slice: 70;
     border-image-repeat: stretch; }
   .fondoSand {
@@ -569,13 +603,20 @@ nav a:hover {
   .hijoG6 {
     justify-self: center; }
   .grid {
-    grid-template-areas: "p1" "i1" "p2" "i2" "p3" "i3"; }
+    grid-template-areas: "p1"
+ "i1"
+ "p2"
+ "i2"
+ "p3"
+ "i3"; }
   .historia {
     max-width: 220px;
     margin-top: 5px;
     margin-bottom: 5px; }
   .tituloNos {
     margin-top: -30px; } }
+
+/* Media queries para smartphone grandes */
 
 @media screen and (min-width: 421px) and (max-width: 490px) {
   a .logo {
@@ -644,7 +685,7 @@ nav a:hover {
     border-image-slice: 70; }
   .fondoCafe {
     border: silver 30px solid;
-    border-image: url(../Img/bordecafe.png);
+    border-image: url("../Img/fondocafe.png");
     border-image-slice: 70;
     border-image-repeat: stretch; }
   .fondoSand {
@@ -694,13 +735,20 @@ nav a:hover {
   .hijoG6 {
     justify-self: center; }
   .grid {
-    grid-template-areas: "p1" "i1" "p2" "i2" "p3" "i3"; }
+    grid-template-areas: "p1"
+ "i1"
+ "p2"
+ "i2"
+ "p3"
+ "i3"; }
   .historia {
     max-width: 220px;
     margin-top: 5px;
     margin-bottom: 5px; }
   .tituloNos {
     margin-top: -30px; } }
+
+/* Media queries para tablet chicas */
 
 @media screen and (min-width: 491px) and (max-width: 600px) {
   a .logo {
@@ -769,7 +817,7 @@ nav a:hover {
     border-image-slice: 70; }
   .fondoCafe {
     border: silver 30px solid;
-    border-image: url(../Img/bordecafe.png);
+    border-image: url("../Img/fondocafe.png");
     border-image-slice: 70;
     border-image-repeat: stretch; }
   .fondoSand {
@@ -819,13 +867,20 @@ nav a:hover {
   .hijoG6 {
     justify-self: center; }
   .grid {
-    grid-template-areas: "p1" "i1" "p2" "i2" "p3" "i3"; }
+    grid-template-areas: "p1"
+ "i1"
+ "p2"
+ "i2"
+ "p3"
+ "i3"; }
   .historia {
     max-width: 220px;
     margin-top: 5px;
     margin-bottom: 5px; }
   .tituloNos {
     margin-top: -30px; } }
+
+/* Media queries para tablet medianas */
 
 @media screen and (min-width: 601px) and (max-width: 670px) {
   a .logo {
@@ -850,7 +905,7 @@ nav a:hover {
     border-image-slice: 50; }
   .fondoCafe {
     border: silver 60px solid;
-    border-image: url("../Img/bordecafe.png");
+    border-image: url("../Img/fondocafe.png");
     border-image-slice: 40;
     border-image-repeat: stretch; }
   .fondoSand {
@@ -891,6 +946,8 @@ nav a:hover {
     margin-left: 45px;
     margin-right: 12px; } }
 
+/* Media queries para tablet grandes */
+
 @media screen and (min-width: 671px) and (max-width: 780px) {
   a .logo {
     height: 120px;
@@ -912,7 +969,7 @@ nav a:hover {
     border-image-slice: 50; }
   .fondoCafe {
     border: silver 60px solid;
-    border-image: url("../Img/bordecafe.png");
+    border-image: url("../Img/fondocafe.png");
     border-image-slice: 40;
     border-image-repeat: stretch; }
   .fondoSand {
@@ -951,6 +1008,8 @@ nav a:hover {
     margin-left: 29px;
     margin-right: 13px; } }
 
+/* Media queries para escritorios chicos */
+
 @media screen and (min-width: 781px) and (max-width: 900px) {
   a .logo {
     height: 130px;
@@ -971,7 +1030,7 @@ nav a:hover {
     border-image-slice: 60; }
   .fondoCafe {
     border: silver 60px solid;
-    border-image: url("../Img/bordecafe.png");
+    border-image: url("../Img/fondocafe.png");
     border-image-slice: 60;
     border-image-repeat: stretch; }
   .fondoSand {
@@ -1006,6 +1065,8 @@ nav a:hover {
     margin-left: 29px;
     margin-right: 13px; } }
 
+/* Media queries para escritorios medianos */
+
 @media screen and (min-width: 901px) and (max-width: 1000px) {
   a .logo {
     height: 140px;
@@ -1027,7 +1088,7 @@ nav a:hover {
     border-image-slice: 60; }
   .fondoCafe {
     border: silver 70px solid;
-    border-image: url("../Img/bordecafe.png");
+    border-image: url("../Img/fondocafe.png");
     border-image-slice: 60;
     border-image-repeat: stretch; }
   .fondoSand {
@@ -1056,6 +1117,8 @@ nav a:hover {
   .gridForm {
     font-size: 14px; } }
 
+/* Media queries para escritorios grandes */
+
 @media screen and (min-width: 1001px) and (max-width: 1100px) {
   a .logo {
     height: 155px;
@@ -1077,7 +1140,7 @@ nav a:hover {
     border-image-slice: 60; }
   .fondoCafe {
     border: silver 80px solid;
-    border-image: url("../Img/bordecafe.png");
+    border-image: url("../Img/fondocafe.png");
     border-image-slice: 60;
     border-image-repeat: stretch; }
   .fondoSand {
