@@ -1,8 +1,7 @@
 .fondoPan {
     border: silver 90px solid;
     border-image: url("../Img/fondopan.png");
-    border-image-slice: 70;
-    border-image-repeat: stretch;
+    border-image-slice: 87;
     background-image: linear-gradient($col-pri, white, $col-pri);
 }
 
