@@ -29,15 +29,6 @@
         margin-bottom: -15px;
     }
 
-    .carCentr {
-        display: flex;
-        justify-content: center;
-        margin-top: 12px;
-        margin-right: 8px;
-        margin-left: 8px;
-        width: 360px;
-    }
-
     footer {
         flex-direction: column;
         flex-wrap: nowrap;
@@ -218,6 +209,7 @@
         height: 85px;
         padding-top: 10px;
         margin-left: 60px;
+        margin-top: 16px;
     }
 
     .flex {
@@ -231,33 +223,25 @@
 
     nav ul li {
         padding: 5px;
-        margin-top: 148px;
+        margin-top: 167px;
         font-size: 10px;
         margin-left: -20px;
     }
 
     header  {
-        height: 125px;
+        height: 175px;
     }
 
     .tituloInicio {
-        margin-top: -25px;
+        margin-top: 5px;
+        margin-bottom: -15px;
     }
-
-    .carCentr {
-        display: flex;
-        justify-content: center;
-        margin-top: 12px;
-        margin-right: 8px;
-        margin-left: 8px;
-        width: 360px;
-    }
-
+    
     footer {
         flex-direction: column;
         flex-wrap: nowrap;
         font-size: 10px;
-        height: 110px;
+        height: 175px;
     }
 
     .telefono {
@@ -430,6 +414,7 @@
         height: 85px;
         padding-top: 10px;
         margin-left: 75px;
+        margin-top: 17px;
     }
 
     .flex {
@@ -437,39 +422,30 @@
     }
 
     nav {
-        margin-top: -142px;
+        margin-top: -145px;
         margin-left: 28px;
     }
 
     nav ul li {
         padding: 5px;
-        margin-top: 148px;
+        margin-top: 170px;
         font-size: 10px;
         margin-left: -20px;
     }
 
     header  {
-        height: 125px;
+        height: 180px;
     }
 
     .tituloInicio {
         margin-top: -25px;
     }
 
-    .carCentr {
-        display: flex;
-        justify-content: center;
-        margin-top: 12px;
-        margin-right: 8px;
-        margin-left: 8px;
-        width: 360px;
-    }
-
     footer {
         flex-direction: column;
         flex-wrap: nowrap;
         font-size: 10px;
-        height: 110px;
+        height: 180px;
     }
 
     .telefono {
