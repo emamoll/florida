@@ -81,6 +81,19 @@
     align-self: center;
 }
 
+.gridFormH14 {
+    grid-row-start: 8;
+    justify-self: end;
+    align-self: center;
+}
+
+.gridFormH15 {
+    grid-row-start: 8;
+    grid-column-start: 2;
+    justify-self: start;
+    align-self: center;
+}
+
 .marginCon {
     margin-bottom: 22px;
     padding-top: 30px;
