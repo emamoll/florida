@@ -380,7 +380,8 @@ nav a:hover {
     flex-direction: column;
     flex-wrap: nowrap;
     font-size: 10px;
-    height: 150px; }
+    height: 150px;
+    margin-top: 40px; }
   .telefono {
     margin-left: 28px; }
   p {
