@@ -609,15 +609,16 @@ nav a:hover {
     font-size: 10px;
     margin-left: -20px; }
   header {
-    height: 230px; }
+    height: 270px; }
   .tituloInicio {
     margin-top: 5px; }
   footer {
     flex-direction: column;
     flex-wrap: nowrap;
     font-size: 10px;
-    height: 230px;
-    margin-top: 60px; }
+    height: 270px;
+    margin-top: 70px;
+    padding-top: 15px; }
   .telefono {
     margin-left: 28px; }
   p {
