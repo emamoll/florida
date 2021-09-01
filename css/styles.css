@@ -597,7 +597,7 @@ nav a:hover {
     height: 85px;
     padding-top: 10px;
     margin-left: 75px;
-    margin-top: 30px; }
+    margin-top: 40px; }
   .flex {
     justify-content: flex-start; }
   nav {
@@ -609,15 +609,15 @@ nav a:hover {
     font-size: 10px;
     margin-left: -20px; }
   header {
-    height: 190px; }
+    height: 220px; }
   .tituloInicio {
     margin-top: -15px; }
   footer {
     flex-direction: column;
     flex-wrap: nowrap;
     font-size: 10px;
-    height: 185px;
-    margin-top: 50px; }
+    height: 220px;
+    margin-top: 60px; }
   .telefono {
     margin-left: 28px; }
   p {
@@ -730,7 +730,7 @@ nav a:hover {
   header {
     height: 135px; }
   .tituloInicio {
-    margin-top: -25px; }
+    margin-top: -10px; }
   .carCentr {
     display: flex;
     justify-content: center;
