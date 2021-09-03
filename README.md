@@ -1,4 +1,4 @@
-# florida
+# Florida
 ## _La panadería de cordoba que mantiene la tradicíon el horno a leña_
 
 La Florida es un panadería ubicada en  la provincia de Córdoba, Argentina. Su objetivo es mantener la calidad que la caracteriza en todas las etapa de fabricación de cada   producto. Lo que distingue a Florida es su cocción en horno a leña, desde su fundación en 1946.
