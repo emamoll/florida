@@ -264,7 +264,8 @@ nav a:hover {
 .hijoG1 {
   grid-area: p1;
   justify-self: end;
-  align-self: center; }
+  align-self: center;
+  margin-left: 10px; }
 
 .hijoG2 {
   grid-area: i1;
@@ -284,7 +285,8 @@ nav a:hover {
 .hijoG5 {
   grid-area: p3;
   justify-self: end;
-  align-self: center; }
+  align-self: center;
+  margin-left: 10px; }
 
 .hijoG6 {
   grid-area: i3;
