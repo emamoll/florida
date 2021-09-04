@@ -60,7 +60,7 @@ main {
 
 .fondoCafe {
   border: silver 90px solid;
-  border-image: url("../Img/fondocafe.png");
+  border-image: url("../Img/fondocafe.jpg");
   border-image-slice: 87;
   background-image: linear-gradient(#E57723, white, #E57723); }
 
@@ -299,7 +299,7 @@ nav a:hover {
 
 .fondoNos {
   border: silver 90px solid;
-  border-image: url("../Img/fondonosotros.png");
+  border-image: url("../Img/fondonosotros.jpg");
   border-image-slice: 87;
   background-image: linear-gradient(#E57723, white, #E57723);
   width: 100%;
@@ -310,7 +310,7 @@ nav a:hover {
 
 .fondoPan {
   border: silver 90px solid;
-  border-image: url("../Img/fondopan.png");
+  border-image: url("../Img/fondopan.jpg");
   border-image-slice: 87;
   background-image: linear-gradient(#E57723, white, #E57723); }
 
@@ -326,7 +326,7 @@ nav a:hover {
 
 .fondoSand {
   border: silver 90px solid;
-  border-image: url("../Img/fondosand.png");
+  border-image: url("../Img/fondosand.jpg");
   border-image-slice: 87;
   background-image: linear-gradient(#E57723, white, #E57723); }
 
@@ -415,23 +415,20 @@ nav a:hover {
     margin-right: 5px; }
   .fondoNos {
     border: silver 30px solid;
-    border-image: url("../Img/fondonosotros.png");
-    border-image-slice: 60;
-    border-image-repeat: stretch; }
+    border-image: url("../Img/fondonosotros.jpg");
+    border-image-slice: 60; }
   .fondoPan {
     border: silver 30px solid;
-    border-image: url("../Img/fondopan.png");
-    border-image-slice: 60;
-    border-image-repeat: stretch; }
+    border-image: url("../Img/fondopan.jpg");
+    border-image-slice: 60; }
   .fondoCafe {
     border: silver 30px solid;
-    border-image: url("../Img/fondocafe.png");
+    border-image: url("../Img/fondocafe.jpg");
     border-image-slice: 60; }
   .fondoSand {
     border: silver 30px solid;
-    border-image: url("../Img/fondosand.png");
-    border-image-slice: 60;
-    border-image-repeat: stretch; }
+    border-image: url("../Img/fondosand.jpg");
+    border-image-slice: 60; }
   #cafeFondo {
     height: 210px; }
   #sandFondo {
@@ -542,20 +539,19 @@ nav a:hover {
     margin-right: 5px; }
   .fondoNos {
     border: silver 30px solid;
-    border-image: url("../Img/fondonosotros.png");
+    border-image: url("../Img/fondonosotros.jpg");
     border-image-slice: 87; }
   .fondoPan {
     border: silver 30px solid;
-    border-image: url("../Img/fondopan.png");
+    border-image: url("../Img/fondopan.jpg");
     border-image-slice: 70; }
   .fondoCafe {
     border: silver 30px solid;
-    border-image: url("../Img/fondocafe.png");
-    border-image-slice: 70;
-    border-image-repeat: stretch; }
+    border-image: url("../Img/fondocafe.jpg");
+    border-image-slice: 70; }
   .fondoSand {
     border: silver 30px solid;
-    border-image: url("../Img/fondosand.png");
+    border-image: url("../Img/fondosand.jpg");
     border-image-slice: 70; }
   #cafeFondo {
     height: 210px; }
@@ -668,20 +664,19 @@ nav a:hover {
     margin-right: 5px; }
   .fondoNos {
     border: silver 30px solid;
-    border-image: url("../Img/fondonosotros.png");
+    border-image: url("../Img/fondonosotros.jpg");
     border-image-slice: 87; }
   .fondoPan {
     border: silver 30px solid;
-    border-image: url("../Img/fondopan.png");
+    border-image: url("../Img/fondopan.jpg");
     border-image-slice: 70; }
   .fondoCafe {
     border: silver 30px solid;
-    border-image: url("../Img/fondocafe.png");
-    border-image-slice: 70;
-    border-image-repeat: stretch; }
+    border-image: url("../Img/fondocafe.jpg");
+    border-image-slice: 70; }
   .fondoSand {
     border: silver 30px solid;
-    border-image: url("../Img/fondosand.png");
+    border-image: url("../Img/fondosand.jpg");
     border-image-slice: 70; }
   #cafeFondo {
     height: 210px; }
@@ -793,20 +788,19 @@ nav a:hover {
     margin-right: 5px; }
   .fondoNos {
     border: silver 30px solid;
-    border-image: url("../Img/fondonosotros.png");
+    border-image: url("../Img/fondonosotros.jpg");
     border-image-slice: 87; }
   .fondoPan {
     border: silver 30px solid;
-    border-image: url("../Img/fondopan.png");
+    border-image: url("../Img/fondopan.jpg");
     border-image-slice: 70; }
   .fondoCafe {
     border: silver 30px solid;
-    border-image: url("../Img/fondocafe.png");
-    border-image-slice: 70;
-    border-image-repeat: stretch; }
+    border-image: url("../Img/fondocafe.jpg");
+    border-image-slice: 70; }
   .fondoSand {
     border: silver 30px solid;
-    border-image: url("../Img/fondosand.png");
+    border-image: url("../Img/fondosand.jpg");
     border-image-slice: 70; }
   #cafeFondo {
     height: 210px; }
@@ -895,20 +889,19 @@ nav a:hover {
     font-size: 60px; }
   .fondoNos {
     border: silver 60px solid;
-    border-image: url("../Img/fondonosotros.png");
+    border-image: url("../Img/fondonosotros.jpg");
     border-image-slice: 40; }
   .fondoPan {
     border: silver 60px solid;
-    border-image: url("../Img/fondopan.png");
+    border-image: url("../Img/fondopan.jpg");
     border-image-slice: 50; }
   .fondoCafe {
     border: silver 60px solid;
-    border-image: url("../Img/fondocafe.png");
-    border-image-slice: 40;
-    border-image-repeat: stretch; }
+    border-image: url("../Img/fondocafe.jpg");
+    border-image-slice: 40; }
   .fondoSand {
     border: silver 60px solid;
-    border-image: url("../Img/fondosand.png");
+    border-image: url("../Img/fondosand.jpg");
     border-image-slice: 40; }
   .grid {
     font-size: 12px; }
@@ -957,20 +950,19 @@ nav a:hover {
     padding: 5px; }
   .fondoNos {
     border: silver 60px solid;
-    border-image: url("../Img/fondonosotros.png");
+    border-image: url("../Img/fondonosotros.jpg");
     border-image-slice: 40; }
   .fondoPan {
     border: silver 60px solid;
-    border-image: url("../Img/fondopan.png");
-    border-image-slice: 50; }
+    border-image: url("../Img/fondopan.jpg");
+    border-image-slice: 40; }
   .fondoCafe {
     border: silver 60px solid;
-    border-image: url("../Img/fondocafe.png");
-    border-image-slice: 40;
-    border-image-repeat: stretch; }
+    border-image: url("../Img/fondocafe.jpg");
+    border-image-slice: 40; }
   .fondoSand {
     border: silver 60px solid;
-    border-image: url("../Img/fondosand.png");
+    border-image: url("../Img/fondosand.jpg");
     border-image-slice: 40; }
   .grid {
     font-size: 15px; }
@@ -1016,20 +1008,19 @@ nav a:hover {
     font-size: 12px; }
   .fondoNos {
     border: silver 60px solid;
-    border-image: url("../Img/fondonosotros.png");
+    border-image: url("../Img/fondonosotros.jpg");
     border-image-slice: 60; }
   .fondoPan {
     border: silver 60px solid;
-    border-image: url("../Img/fondopan.png");
+    border-image: url("../Img/fondopan.jpg");
     border-image-slice: 60; }
   .fondoCafe {
     border: silver 60px solid;
-    border-image: url("../Img/fondocafe.png");
-    border-image-slice: 60;
-    border-image-repeat: stretch; }
+    border-image: url("../Img/fondocafe.jpg");
+    border-image-slice: 60; }
   .fondoSand {
     border: silver 60px solid;
-    border-image: url("../Img/fondosand.png");
+    border-image: url("../Img/fondosand.jpg");
     border-image-slice: 48; }
   .gridForm {
     font-size: 14px; }
@@ -1072,20 +1063,19 @@ nav a:hover {
     padding: 7px; }
   .fondoNos {
     border: silver 70px solid;
-    border-image: url("../Img/fondonosotros.png");
+    border-image: url("../Img/fondonosotros.jpg");
     border-image-slice: 60; }
   .fondoPan {
     border: silver 70px solid;
-    border-image: url("../Img/fondopan.png");
+    border-image: url("../Img/fondopan.jpg");
     border-image-slice: 60; }
   .fondoCafe {
     border: silver 70px solid;
-    border-image: url("../Img/fondocafe.png");
-    border-image-slice: 60;
-    border-image-repeat: stretch; }
+    border-image: url("../Img/fondocafe.jpg");
+    border-image-slice: 60; }
   .fondoSand {
     border: silver 70px solid;
-    border-image: url("../Img/fondosand.png");
+    border-image: url("../Img/fondosand.jpg");
     border-image-slice: 60; }
   .me-3 {
     margin-right: 1rem !important;
@@ -1122,20 +1112,19 @@ nav a:hover {
     padding: 9px; }
   .fondoNos {
     border: silver 80px solid;
-    border-image: url("../Img/fondonosotros.png");
+    border-image: url("../Img/fondonosotros.jpg");
     border-image-slice: 60; }
   .fondoPan {
     border: silver 80px solid;
-    border-image: url("../Img/fondopan.png");
+    border-image: url("../Img/fondopan.jpg");
     border-image-slice: 60; }
   .fondoCafe {
     border: silver 80px solid;
-    border-image: url("../Img/fondocafe.png");
-    border-image-slice: 60;
-    border-image-repeat: stretch; }
+    border-image: url("../Img/fondocafe.jpg");
+    border-image-slice: 60; }
   .fondoSand {
     border: silver 80px solid;
-    border-image: url("../Img/fondosand.png");
+    border-image: url("../Img/fondosand.jpg");
     border-image-slice: 60; }
   .imgSecciones {
     margin-right: 5px;
