@@ -916,7 +916,7 @@ nav a:hover {
     font-size: 10px;
     margin-left: 49px; }
   .imgSecciones {
-    width: 275px;
+    width: 235px;
     margin-left: 17px;
     margin-right: 5px; }
   .d-flex {
@@ -975,7 +975,7 @@ nav a:hover {
     font-size: 12px;
     margin-left: 50px; }
   .imgSecciones {
-    width: 290px;
+    width: 225px;
     margin-left: 30px;
     margin-right: 5px; }
   .d-flex {
@@ -1031,7 +1031,7 @@ nav a:hover {
     font-size: 12px;
     margin-left: 50px; }
   .imgSecciones {
-    width: 395px;
+    width: 335px;
     margin-left: 30px;
     margin-right: 5px; }
   .d-flex {
@@ -1084,7 +1084,7 @@ nav a:hover {
     font-size: 14px;
     margin-left: 50px; }
   .imgSecciones {
-    width: 430px;
+    width: 385px;
     margin-left: 30px; }
   #sandFondo {
     margin-left: 70px;
@@ -1127,6 +1127,7 @@ nav a:hover {
     border-image: url("../Img/fondosand.jpg");
     border-image-slice: 60; }
   .imgSecciones {
+    width: 385px;
     margin-right: 5px;
     margin-left: 20px; }
   .me-3 {
@@ -1139,3 +1140,7 @@ nav a:hover {
     padding-left: 50px; }
   .footH1 {
     font-size: 12px; } }
+
+@media screen and (min-width: 1101px) and (max-width: 1215px) {
+  .imgSecciones {
+    max-width: 390px; } }
